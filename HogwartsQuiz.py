@@ -62,20 +62,26 @@ if (Q2A == "D" or Q2A == "d"):
 
 print ("If you could do one of the following, which would you do?")
 sleep(2)
-print ("Read a book for four hours, completely uninterrupted ")
+print ("A) Read a book for four hours, completely uninterrupted ")
 sleep(1.5)
-print ("Go on a survival skill building camping trip ")
+print ("B) Go on a survival skill building camping trip ")
 sleep(1.5)
-print("Gossip with your friends ")
+print("C) Gossip with your friends ")
 sleep(1.5)
-print ("Study for your upcoming test ")
+print ("D) Study for your upcoming test ")
 Q3A = input("A, B, C, or D: ")
 
 if (Q3A == "A" or Q3A == "a"):
-	print ("A is a good answer.")
+	print ("A is a good answer. Next! ")
 	sleep(1)
 if (Q3A == "B" or Q3A == "b"):
-	print ("")
-
+	print ("B is a good answer. Next! ")
+	sleep(1)
+if (Q3A == "C" or Q3A == "c"):
+	print ("C is a good answer. Next! ")
+	sleep(1)
+if (Q3A == "D" or Q3A == "d"):
+	print ("D is a good answer. Next! ")
+	sleep(1)
 
 
