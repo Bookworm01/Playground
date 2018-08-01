@@ -95,5 +95,7 @@ print ("C) A cat ")
 sleep(1)
 print ("D) A hamster ")
 sleep(1)
-Q4A = input("")
+Q4A = input("Which is it? A, B, C, or D?: ")
+
+
 
