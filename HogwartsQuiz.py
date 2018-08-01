@@ -22,15 +22,60 @@ Q1A = input("Please type A, B, C, or D here: ")
 
 if (Q1A == "A" or Q1A == "a"):
     print ("Great, A! Next question.")
+    sleep(1)
 if (Q1A == "B" or Q1A == "b"):
     print ("Great, B! Next question.")
+    sleep(1)
 if (Q1A == "C" or Q1A == "c"):
 	print ("Great, C! Next question.")
+	sleep(1)
 if (Q1A == "D" or Q1A == "d"):
 	print ("Great, D! Next question.")
+	sleep(1)
 
 
+print ("You are given four potions. Which do you pick?")
+sleep(2)
+print ("A) A potion to make you know everything ")
+sleep(1.3)
+print ("B) A potion to help as many people as possible ")
+sleep(1.5)
+print ("C) A potion that gives you infinate power ")
+sleep(1.3)
+print ("D) A potion that lets you do what you want to do ")
+sleep(1.4)
+Q2A = input("Which do you pick? Answer here using A, B, C, or D: ")
 
+if (Q2A == "A" or Q2A == "a"):
+	print ("Nice choice! Next question. ")
+	sleep(1)
+if (Q2A == "B" or Q2A == "b"):
+	print ("Nice choice! Next question. ")
+	sleep(1)
+if (Q2A == "C" or Q2A == "c"):
+    print ("Nice choice! Next question. ")
+    sleep(1)
+if (Q2A == "D" or Q2A == "d"):
+    print ("Nice choice! Next question.")  
+    sleep(1)
+
+
+print ("If you could do one of the following, which would you do?")
+sleep(2)
+print ("Read a book for four hours, completely uninterrupted ")
+sleep(1.5)
+print ("Go on a survival skill building camping trip ")
+sleep(1.5)
+print("Gossip with your friends ")
+sleep(1.5)
+print ("Study for your upcoming test ")
+Q3A = input("A, B, C, or D: ")
+
+if (Q3A == "A" or Q3A == "a"):
+	print ("A is a good answer.")
+	sleep(1)
+if (Q3A == "B" or Q3A == "b"):
+	print ("")
 
 
 
