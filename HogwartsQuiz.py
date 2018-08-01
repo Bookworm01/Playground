@@ -85,3 +85,15 @@ if (Q3A == "D" or Q3A == "d"):
 	sleep(1)
 
 
+print ("If you could pick one of these pets, which would it be?  ")
+sleep(2)
+print ("A) A parakeet ")
+sleep(1)
+print ("B) A dog ")
+sleep(1)
+print ("C) A cat ")
+sleep(1)
+print ("D) A hamster ")
+sleep(1)
+Q4A = input("")
+
